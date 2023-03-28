@@ -9,6 +9,10 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.grey[800],
         title: const Text('I Am Rich'),
+        leading: const Padding(
+          padding: EdgeInsets.all(4.0),
+          child: Icon(Icons.diamond_outlined),
+        ),
       ),
       body: Center(
         child: Column(
