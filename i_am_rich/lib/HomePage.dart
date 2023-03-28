@@ -13,8 +13,13 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            Text(
+          children: [
+            Image.asset(
+              'images/diamond.png',
+              width: 250,
+              height: 250,
+            ),
+            const Text(
               'This first assignment',
               style: TextStyle(color: Colors.white),
             ),
